@@ -2,6 +2,7 @@ dependencies:
   gatsby: 2.21.9_fb30061a7e86de569f159234ab96fa47
   gatsby-plugin-graphql-codegen: 2.7.1_gatsby@2.21.9+typescript@3.8.3
   gatsby-plugin-typescript: 2.4.0_gatsby@2.21.9
+  path: 0.12.7
   react: 16.13.1
   react-dom: 16.13.1_react@16.13.1
   ts-node: 8.10.1_typescript@3.8.3
@@ -9374,6 +9375,13 @@ packages:
       node: '>=8'
     resolution:
       integrity: sha512-gDKb8aZMDeD/tZWs9P6+q0J9Mwkdl6xMV8TjnGP3qJVJ06bdMgkbBlLU8IdfOsIsFz2BW1rNVT3XuNEl8zPAvw==
+  /path/0.12.7:
+    dependencies:
+      process: 0.11.10
+      util: 0.10.4
+    dev: false
+    resolution:
+      integrity: sha1-1NwqUGxM4hl+tIHr/NWzbAFAsQ8=
   /pbkdf2/3.0.17:
     dependencies:
       create-hash: 1.2.0
@@ -12337,6 +12345,12 @@ packages:
     dev: false
     resolution:
       integrity: sha1-evsa/lCAUkZInj23/g7TeTNqwPk=
+  /util/0.10.4:
+    dependencies:
+      inherits: 2.0.3
+    dev: false
+    resolution:
+      integrity: sha512-0Pm9hTQ3se5ll1XihRic3FDIku70C+iHUdT/W926rSgHV5QgXsYbKZN8MSC3tJtSkhuROzvsQjAaFENRXr+19A==
   /util/0.11.1:
     dependencies:
       inherits: 2.0.3
@@ -12955,6 +12969,7 @@ specifiers:
   gatsby: ^2.21.9
   gatsby-plugin-graphql-codegen: ^2.7.1
   gatsby-plugin-typescript: ^2.4.0
+  path: ^0.12.7
   prettier: 2.0.5
   react: ^16.13.1
   react-dom: ^16.13.1
