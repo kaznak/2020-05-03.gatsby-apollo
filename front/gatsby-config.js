@@ -7,6 +7,11 @@
 module.exports = {
   siteMetadata: {
     title: `Hello! Typescript!`,
+    authors: [
+      { name: "Tori", slug: "tori" },
+      { name: "Neko", slug: "neko" },
+      { name: "Inu", slug: "inu" },
+    ],
   },
   plugins: [
     `gatsby-plugin-typescript`,
