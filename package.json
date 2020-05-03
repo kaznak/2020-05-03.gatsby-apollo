@@ -1,0 +1,21 @@
+{
+  "name": "gatsby-apollo",
+  "version": "0.0.0",
+  "description": "a gatsby project using apollo graphql",
+  "author": "kaznak <kaznak.at.work@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "keywords": [
+    "gatsby",
+    "apollo",
+    "example",
+    "starter"
+  ],
+  "engine": {
+    "node": "^12.16.3",
+    "pnpm": "^4.14.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
