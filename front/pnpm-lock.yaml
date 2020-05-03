@@ -12093,7 +12093,7 @@ packages:
     resolution:
       integrity: sha512-V50KMwwzqJV0NpZIZFwfOD5/lyny3WlSzRiXgA0G7VUnRlqttta1L6UQIHzd6EuBY/cHGfwTIck7w1yH6Q5zUw==
 specifiers:
-  gatsby: ^2.21.0
+  gatsby: ^2.21.9
   prettier: 2.0.5
-  react: ^16.12.0
-  react-dom: ^16.12.0
+  react: ^16.13.1
+  react-dom: ^16.13.1
