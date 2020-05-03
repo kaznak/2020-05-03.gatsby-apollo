@@ -10,4 +10,3 @@ pnpm install --shamefully-hoist
 
 - [pnpm](https://pnpm.js.org/)
 - [GatsbyJS](https://www.gatsbyjs.org/)
-
