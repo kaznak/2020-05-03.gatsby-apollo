@@ -5,7 +5,9 @@
  */
 
 module.exports = {
-  /* Your site config here */
+  siteMetadata: {
+    title: `Hello! Typescript!`,
+  },
   plugins: [
     `gatsby-plugin-typescript`,
     {
