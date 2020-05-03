@@ -1,14 +1,26 @@
 {
-  "name": "gatsby-starter-hello-world",
-  "private": true,
-  "description": "A simplified bare-bones starter for Gatsby",
-  "version": "0.1.0",
+  "name": "gatsby-apollo",
+  "version": "0.0.0",
+  "description": "a gatsby frontend using apollo graphql",
+  "author": "kaznak <kaznak.at.work@gmail.com>",
   "license": "MIT",
+  "private": true,
+  "keywords": [
+    "gatsby",
+    "apollo",
+    "frontend",
+    "example",
+    "starter"
+  ],
+  "engine": {
+    "node": "^12.16.3",
+    "pnpm": "^4.14.2"
+  },
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
-    "start": "npm run develop",
+    "start": "pnpm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
@@ -20,12 +32,5 @@
   },
   "devDependencies": {
     "prettier": "2.0.5"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
-  },
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
   }
 }

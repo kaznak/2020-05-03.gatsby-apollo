@@ -5,6 +5,7 @@
 ```bash
 pnpm install --shamefully-hoist
 ```
+
 ## Uses
 
 - [pnpm](https://pnpm.js.org/)
