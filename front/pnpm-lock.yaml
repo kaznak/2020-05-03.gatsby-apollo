@@ -1,5 +1,6 @@
 dependencies:
   gatsby: 2.21.9_315ebb5d21c18fdae4417dd375773199
+  gatsby-plugin-typescript: 2.4.0_gatsby@2.21.9
   react: 16.13.1
   react-dom: 16.13.1_react@16.13.1
 devDependencies:
@@ -513,6 +514,15 @@ packages:
       '@babel/core': ^7.0.0-0
     resolution:
       integrity: sha512-kwj1j9lL/6Wd0hROD3b/OZZ7MSrZLqqn9RAZ5+cYYsflQ9HZBIKCUkr3+uL1MEJ1NePiUbf98jjiMQSv0NMR9g==
+  /@babel/plugin-syntax-typescript/7.8.3_@babel+core@7.9.6:
+    dependencies:
+      '@babel/core': 7.9.6
+      '@babel/helper-plugin-utils': 7.8.3
+    dev: false
+    peerDependencies:
+      '@babel/core': ^7.0.0-0
+    resolution:
+      integrity: sha512-GO1MQ/SGGGoiEXY0e0bSpHimJvxqB7lktLLIq2pv8xG7WZ8IMEle74jIe1FhprHBWjwjZtXHkycDLZXIWM5Wfg==
   /@babel/plugin-transform-arrow-functions/7.8.3_@babel+core@7.9.6:
     dependencies:
       '@babel/core': 7.9.6
@@ -883,6 +893,17 @@ packages:
       '@babel/core': ^7.0.0-0
     resolution:
       integrity: sha512-2QKyfjGdvuNfHsb7qnBBlKclbD4CfshH2KvDabiijLMGXPHJXGxtDzwIF7bQP+T0ysw8fYTtxPafgfs/c1Lrqg==
+  /@babel/plugin-transform-typescript/7.9.6_@babel+core@7.9.6:
+    dependencies:
+      '@babel/core': 7.9.6
+      '@babel/helper-create-class-features-plugin': 7.9.6_@babel+core@7.9.6
+      '@babel/helper-plugin-utils': 7.8.3
+      '@babel/plugin-syntax-typescript': 7.8.3_@babel+core@7.9.6
+    dev: false
+    peerDependencies:
+      '@babel/core': ^7.0.0-0
+    resolution:
+      integrity: sha512-8OvsRdvpt3Iesf2qsAn+YdlwAJD7zJ+vhFZmDCa4b8dTp7MmHtKk5FF2mCsGxjZwuwsy/yIIay/nLmxST1ctVQ==
   /@babel/plugin-transform-unicode-regex/7.8.3_@babel+core@7.9.6:
     dependencies:
       '@babel/core': 7.9.6
@@ -995,6 +1016,16 @@ packages:
       '@babel/core': ^7.0.0-0
     resolution:
       integrity: sha512-AxylVB3FXeOTQXNXyiuAQJSvss62FEotbX2Pzx3K/7c+MKJMdSg6Ose6QYllkdCFA8EInCJVw7M/o5QbLuA4ZQ==
+  /@babel/preset-typescript/7.9.0_@babel+core@7.9.6:
+    dependencies:
+      '@babel/core': 7.9.6
+      '@babel/helper-plugin-utils': 7.8.3
+      '@babel/plugin-transform-typescript': 7.9.6_@babel+core@7.9.6
+    dev: false
+    peerDependencies:
+      '@babel/core': ^7.0.0-0
+    resolution:
+      integrity: sha512-S4cueFnGrIbvYJgwsVFKdvOmpiL0XGw9MFW9D0vgRys5g36PBhZRL8NX8Gr2akz8XRtzq6HuDXPD/1nniagNUg==
   /@babel/runtime-corejs3/7.9.6:
     dependencies:
       core-js-pure: 3.6.5
@@ -2109,6 +2140,17 @@ packages:
     dev: false
     resolution:
       integrity: sha512-SEP5kJpfGYqYKpBrj5XU3ahw5p5GOHJ0U5ssOSQ/WBVdwkD2Dzlce95exQTs3jOVWPPKLBN2rlEWkCK7dSmLvg==
+  /babel-plugin-remove-graphql-queries/2.9.0_gatsby@2.21.9:
+    dependencies:
+      gatsby: 2.21.9_315ebb5d21c18fdae4417dd375773199
+    dev: false
+    engines:
+      node: '>=10.13.0'
+    peerDependencies:
+      gatsby: ^2.0.0
+      graphql: ^14.1.1
+    resolution:
+      integrity: sha512-lvunFJ/JPhQHh5nOGepg1V5aX4zmbBgrd7qjlBObvQHF7Enz0yh6PznKnwtIX54i+bMOrWPUjCZUPXg3Xs+FLQ==
   /babel-plugin-remove-graphql-queries/2.9.0_gatsby@2.21.9+graphql@14.6.0:
     dependencies:
       gatsby: 2.21.9_315ebb5d21c18fdae4417dd375773199
@@ -5125,6 +5167,23 @@ packages:
       gatsby: ^2.0.0
     resolution:
       integrity: sha512-5FWntUeutF1YUJUy0EHuZE6xBFOljIXSVFJ9gOoQbLUrFw7ba3OW6a7DBruteRX6oOWaQ3YtjGgGOEbpsP3lTQ==
+  /gatsby-plugin-typescript/2.4.0_gatsby@2.21.9:
+    dependencies:
+      '@babel/core': 7.9.6
+      '@babel/plugin-proposal-nullish-coalescing-operator': 7.8.3_@babel+core@7.9.6
+      '@babel/plugin-proposal-numeric-separator': 7.8.3_@babel+core@7.9.6
+      '@babel/plugin-proposal-optional-chaining': 7.9.0_@babel+core@7.9.6
+      '@babel/preset-typescript': 7.9.0_@babel+core@7.9.6
+      '@babel/runtime': 7.9.6
+      babel-plugin-remove-graphql-queries: 2.9.0_gatsby@2.21.9
+      gatsby: 2.21.9_315ebb5d21c18fdae4417dd375773199
+    dev: false
+    engines:
+      node: '>=10.13.0'
+    peerDependencies:
+      gatsby: ^2.0.0
+    resolution:
+      integrity: sha512-PAP6/a83yK7HRv5o0paY000HYL7O4vS0x38t1gxP4tsDpd9L35vNeHeZfklifCE67n9PsElgfSmtCL2Za0M4KQ==
   /gatsby-react-router-scroll/2.3.0_618de28e76e4409a3ac6e715bd921262:
     dependencies:
       '@babel/runtime': 7.9.6
@@ -12094,6 +12153,7 @@ packages:
       integrity: sha512-V50KMwwzqJV0NpZIZFwfOD5/lyny3WlSzRiXgA0G7VUnRlqttta1L6UQIHzd6EuBY/cHGfwTIck7w1yH6Q5zUw==
 specifiers:
   gatsby: ^2.21.9
+  gatsby-plugin-typescript: ^2.4.0
   prettier: 2.0.5
   react: ^16.13.1
   react-dom: ^16.13.1
