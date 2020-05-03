@@ -11,6 +11,10 @@
     "example",
     "starter"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kaznak/2020-05-03.gatsby-apollo"
+  },
   "engine": {
     "node": "^12.16.3",
     "pnpm": "^4.14.2"
