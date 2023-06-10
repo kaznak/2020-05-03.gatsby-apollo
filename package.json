@@ -23,6 +23,6 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
-    "gatsby": "^2.21.9"
+    "gatsby": "^4.25.7"
   }
 }
